@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -35472,9 +35472,9 @@ Metric Code Size 5664</description>
 <plain>
 <text x="86.36" y="-30.48" size="2.54" layer="97">Released under the Creative Common Attribution Share-Alike 3.0 Unported</text>
 <text x="86.36" y="-35.56" size="2.54" layer="97">http://creativecommons.org/licenses/by-sa/3.0/</text>
-<frame x1="78.74" y1="-43.18" x2="233.68" y2="55.88" columns="8" rows="5" layer="91"/>
 <text x="86.36" y="45.72" size="2.54" layer="97">SMAC Project - LED Board Reference Design</text>
 <text x="193.04" y="45.72" size="2.54" layer="97">http://smacproject.org</text>
+<frame x1="78.74" y1="-43.18" x2="246.38" y2="55.88" columns="8" rows="5" layer="97"/>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="134.62" y="10.16"/>

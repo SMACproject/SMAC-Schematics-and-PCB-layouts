@@ -34232,7 +34232,7 @@ Package used by L3G4200D 3-axis gyro&lt;br&gt;
 <plain>
 <text x="-60.96" y="-40.64" size="2.54" layer="97">Released under the Creative Common Attribution Share-Alike 3.0 Unported</text>
 <text x="-60.96" y="-45.72" size="2.54" layer="97">http://creativecommons.org/licenses/by-sa/3.0/</text>
-<frame x1="-68.58" y1="-53.34" x2="86.36" y2="45.72" columns="8" rows="5" layer="91"/>
+<frame x1="-68.58" y1="-53.34" x2="86.36" y2="45.72" columns="8" rows="5" layer="97"/>
 <text x="-60.96" y="35.56" size="2.54" layer="97">SMAC Project - L3GD20 Reference Design</text>
 <text x="45.72" y="35.56" size="2.54" layer="97">http://smacproject.org</text>
 </plain>

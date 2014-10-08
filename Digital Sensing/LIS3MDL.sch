@@ -34169,7 +34169,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="-66.04" y="-40.64" size="2.54" layer="97">Released under the Creative Common Attribution Share-Alike 3.0 Unported</text>
 <text x="-66.04" y="-45.72" size="2.54" layer="97">http://creativecommons.org/licenses/by-sa/3.0/</text>
-<frame x1="-73.66" y1="-53.34" x2="81.28" y2="45.72" columns="8" rows="5" layer="91"/>
+<frame x1="-73.66" y1="-53.34" x2="81.28" y2="45.72" columns="8" rows="5" layer="97"/>
 <text x="-66.04" y="35.56" size="2.54" layer="97">SMAC Project - LIS3MDL Reference Design</text>
 <text x="40.64" y="35.56" size="2.54" layer="97">http://smacproject.org</text>
 </plain>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -34635,7 +34635,7 @@ Metric Code Size 5664</description>
 <plain>
 <text x="-48.26" y="-45.72" size="2.54" layer="97">Released under the Creative Common Attribution Share-Alike 3.0 Unported</text>
 <text x="-48.26" y="-50.8" size="2.54" layer="97">http://creativecommons.org/licenses/by-sa/3.0/</text>
-<frame x1="-55.88" y1="-58.42" x2="99.06" y2="40.64" columns="8" rows="5" layer="91"/>
+<frame x1="-55.88" y1="-58.42" x2="99.06" y2="40.64" columns="8" rows="5" layer="97"/>
 <text x="-48.26" y="30.48" size="2.54" layer="97">SMAC Project - LSM330DLC Reference Design</text>
 <text x="58.42" y="30.48" size="2.54" layer="97">http://smacproject.org</text>
 </plain>

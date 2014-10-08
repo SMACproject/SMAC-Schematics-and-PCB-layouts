@@ -34220,7 +34220,7 @@ Metric Code Size 5664</description>
 <plain>
 <text x="-40.64" y="-38.1" size="2.54" layer="97">Released under the Creative Common Attribution Share-Alike 3.0 Unported</text>
 <text x="-40.64" y="-43.18" size="2.54" layer="97">http://creativecommons.org/licenses/by-sa/3.0/</text>
-<frame x1="-48.26" y1="-50.8" x2="106.68" y2="48.26" columns="8" rows="5" layer="91"/>
+<frame x1="-48.26" y1="-50.8" x2="106.68" y2="48.26" columns="8" rows="5" layer="97"/>
 <text x="-40.64" y="38.1" size="2.54" layer="97">SMAC Project - LIS331DLH Reference Design</text>
 <text x="66.04" y="38.1" size="2.54" layer="97">http://smacproject.org</text>
 </plain>

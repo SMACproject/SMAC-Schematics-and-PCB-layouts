@@ -34181,7 +34181,7 @@ Source: www.allegromicro.com .. 3901.pdf</description>
 <plain>
 <text x="-76.2" y="-40.64" size="2.54" layer="97">Released under the Creative Common Attribution Share-Alike 3.0 Unported</text>
 <text x="-76.2" y="-45.72" size="2.54" layer="97">http://creativecommons.org/licenses/by-sa/3.0/</text>
-<frame x1="-83.82" y1="-53.34" x2="71.12" y2="45.72" columns="8" rows="5" layer="91"/>
+<frame x1="-83.82" y1="-53.34" x2="71.12" y2="45.72" columns="8" rows="5" layer="97"/>
 <text x="-76.2" y="35.56" size="2.54" layer="97">SMAC Project - A3901 Reference Design</text>
 <text x="30.48" y="35.56" size="2.54" layer="97">http://smacproject.org</text>
 </plain>

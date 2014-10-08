@@ -36781,7 +36781,7 @@ http://www.rohm.com&lt;br&gt;
 <plain>
 <text x="7.62" y="12.7" size="2.54" layer="97">Released under the Creative Common Attribution Share-Alike 3.0 Unported</text>
 <text x="7.62" y="7.62" size="2.54" layer="97">http://creativecommons.org/licenses/by-sa/3.0/</text>
-<frame x1="0" y1="0" x2="154.94" y2="99.06" columns="8" rows="5" layer="91"/>
+<frame x1="0" y1="0" x2="154.94" y2="99.06" columns="8" rows="5" layer="97"/>
 <text x="7.62" y="88.9" size="2.54" layer="97">SMAC Project - BH67172NUX-FPC Reference Design</text>
 <text x="114.3" y="88.9" size="2.54" layer="97">http://smacproject.org</text>
 </plain>

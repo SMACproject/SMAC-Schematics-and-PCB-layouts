@@ -34837,7 +34837,7 @@ Metric Code Size 5664</description>
 <text x="-154.94" y="-86.36" size="2.54" layer="97">http://creativecommons.org/licenses/by-sa/3.0/</text>
 <text x="-154.94" y="27.94" size="2.54" layer="97">SMAC Project - Power Management Reference Design</text>
 <text x="-48.26" y="27.94" size="2.54" layer="97">http://smacproject.org</text>
-<frame x1="-162.56" y1="-93.98" x2="-5.08" y2="38.1" columns="8" rows="5" layer="91"/>
+<frame x1="-162.56" y1="-93.98" x2="-5.08" y2="38.1" columns="8" rows="5" layer="97"/>
 </plain>
 <instances>
 <instance part="AGND1" gate="VR1" x="-76.2" y="-48.26"/>

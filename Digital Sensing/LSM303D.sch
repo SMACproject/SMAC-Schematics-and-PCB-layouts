@@ -34191,7 +34191,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="-66.04" y="-43.18" size="2.54" layer="97">Released under the Creative Common Attribution Share-Alike 3.0 Unported</text>
 <text x="-66.04" y="-48.26" size="2.54" layer="97">http://creativecommons.org/licenses/by-sa/3.0/</text>
-<frame x1="-73.66" y1="-55.88" x2="81.28" y2="43.18" columns="8" rows="5" layer="91"/>
+<frame x1="-73.66" y1="-55.88" x2="81.28" y2="43.18" columns="8" rows="5" layer="97"/>
 <text x="-66.04" y="33.02" size="2.54" layer="97">SMAC Project - LSM303D Reference Design</text>
 <text x="40.64" y="33.02" size="2.54" layer="97">http://smacproject.org</text>
 </plain>

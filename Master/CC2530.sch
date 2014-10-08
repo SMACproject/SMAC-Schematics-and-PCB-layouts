@@ -34816,7 +34816,7 @@ Metric Code Size 5664</description>
 <text x="0" y="-30.48" size="2.54" layer="97">http://creativecommons.org/licenses/by-sa/3.0/</text>
 <text x="0" y="111.76" size="2.54" layer="97">SMAC Project - CC2530 Reference Design</text>
 <text x="121.92" y="111.76" size="2.54" layer="97">http://smacproject.org</text>
-<frame x1="-7.62" y1="-38.1" x2="165.1" y2="121.92" columns="8" rows="5" layer="91"/>
+<frame x1="-7.62" y1="-38.1" x2="165.1" y2="121.92" columns="8" rows="5" layer="97"/>
 </plain>
 <instances>
 <instance part="U$1" gate="S" x="50.8" y="63.5"/>
