@@ -1,5 +1,4 @@
-SMAC-Modules
-Schematics and PCB layouts
+SMAC-Modules - Schematics and PCB layouts
 ============
 
 This folder includes schematics and PCB layouts for all the SMAC modules.
