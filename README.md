@@ -28,5 +28,5 @@ Module Name | Type | Function | IC  | Diameter [mm] | Ion [mA] | Ioff [mA]
 
 Devkit name | Features | Dimension [mm]
 :---------: | :------: | :------------:
-CC2530EV | CC2530F256, Debugger connector, 2x 8p interface headers, 1x power headers, 1x reset button | 40 x 40
-SMAC-2530 | CC2530F256, FT230x USB to serial converter, CC Debugger connector, 2x 10p interface headers, 3x power headers, 1x LCD3310 interface, 4x LEDs, 1x push button, 1x reset button | 62.5 x 57.5
+[CC2530EV](https://github.com/SMACproject/SMAC-Schematics-and-PCB-layouts/tree/master/Development-Boards/2530EV) | CC2530F256, Debugger connector, 2x 8p interface headers, 1x power headers, 1x reset button | 40 x 40
+[SMAC-2530](https://github.com/SMACproject/SMAC-Schematics-and-PCB-layouts/tree/master/Development-Boards/SMAC-2530) | CC2530F256, FT230x USB to serial converter, CC Debugger connector, 2x 10p interface headers, 3x power headers, 1x LCD3310 interface, 4x LEDs, 1x push button, 1x reset button | 62.5 x 57.5
