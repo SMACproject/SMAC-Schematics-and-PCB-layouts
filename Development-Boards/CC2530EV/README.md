@@ -1,6 +1,6 @@
 # CC2530EV Reference Design
 
-->![](https://github.com/SMACproject/SMAC-Schematics-and-PCB-layouts/blob/master/Development-Boards/CC2530EV/CC2530EV.JPG)<-
+![CC2530EV](https://github.com/SMACproject/SMAC-Schematics-and-PCB-layouts/blob/master/Development-Boards/CC2530EV/CC2530EV.JPG =250x)
 
 ## Specification
 - TI CC2530F256 with 256KB Flash and 8kB RAM
