@@ -1,6 +1,6 @@
 # CC2530EV Reference Design
 
-![CC2530EV](./CC2530EV.JPG =500x)
+![CC2530EV](./CC2530EV.JPG)
 
 ## Specification
 - TI CC2530F256 with 256KB Flash and 8kB RAM
