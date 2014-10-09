@@ -18,7 +18,7 @@ Module Name | Type | Function | IC  | Diameter [mm] | Ion [mA] | Ioff [mA]
 [3DAMG](https://github.com/SMACproject/SMAC-Schematics-and-PCB-layouts/tree/master/Digital-Sensing/3DAMG) | Digital Sensing | 3D Accel./Magnet./Gyro. | LSM9DS0 | 9.8 | 6.15 | 0.005
 [PT](https://github.com/SMACproject/SMAC-Schematics-and-PCB-layouts/tree/master/Digital-Sensing/PT) | Digital Sensing | Pressure/Temperature | MPL115A1 | 9.8 | 0.005 | 0.001
 [8ADC](https://github.com/SMACproject/SMAC-Schematics-and-PCB-layouts/tree/master/Analog-Sensing/8ADC) | Analog Sensing | 8 Channels ADC | AD7689 | 9.8 | 03.78 | 0.005
-[2AFADC](http://smallerapp.com) | Analog Sensing | 2 Channels Front End & ADC | AD623 & ADS8320  | 9.8 | 2.57 | 0.001
+[2AFADC](https://github.com/SMACproject/SMAC-Schematics-and-PCB-layouts/tree/master/Analog-Sensing/2AFADC) | Analog Sensing | 2 Channels Front End & ADC | AD623 & ADS8320  | 9.8 | 2.57 | 0.001
 [BSDCC](https://github.com/SMACproject/SMAC-Schematics-and-PCB-layouts/tree/master/Actuation/BSDCC) | Actuation | Brushed DC Motor Controller | A3901 | 9.5 | - | 0.005
 [BSLDCC](https://github.com/SMACproject/SMAC-Schematics-and-PCB-layouts/tree/master/Actuation/BSLDCC) | Actuation | Brushless DC Motor Controller | BH67172NUX | 9.8 | - | 0.009
 [VI](https://github.com/SMACproject/SMAC-Schematics-and-PCB-layouts/tree/master/Vision-Illumination/VI) | Vision/Illumination | Vision/Illumination | NUD533 | 9.8 | 150 (Max) | -
