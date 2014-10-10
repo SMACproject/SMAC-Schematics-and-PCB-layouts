@@ -1,4 +1,4 @@
-# CC2530 Reference Design
+# Master Module Reference Design
 
 ![CC2530](./CC2530.JPG)
 
