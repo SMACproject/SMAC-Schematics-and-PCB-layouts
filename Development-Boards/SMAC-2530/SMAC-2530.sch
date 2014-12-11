@@ -42880,7 +42880,6 @@ Source: www.kingbright.com</description>
 <part name="GND3" library="supply1" deviceset="0V" device=""/>
 <part name="GND7" library="supply1" deviceset="0V" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device="" value="+3V3A"/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="R0603K" value="0"/>
 <part name="LCD3310" library="con-lsta" deviceset="FE05-2" device=""/>
 <part name="PORT0" library="con-lstb" deviceset="MA10-1" device=""/>
 <part name="PORT1" library="con-lstb" deviceset="MA10-1" device=""/>
@@ -42949,7 +42948,7 @@ Source: www.kingbright.com</description>
 <text x="15.24" y="187.96" size="1.778" layer="97">REGULATOR 200mA NOT MINIATURIZED</text>
 <wire x1="12.7" y1="149.86" x2="162.56" y2="149.86" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="162.56" y1="149.86" x2="162.56" y2="104.14" width="0.1524" layer="97" style="shortdash"/>
-<text x="154.94" y="58.42" size="1.778" layer="97" rot="R270">ANTENNA</text>
+<text x="147.32" y="60.96" size="1.778" layer="97" rot="R270">ANTENNA</text>
 <wire x1="162.56" y1="104.14" x2="162.56" y2="17.78" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="162.56" y1="104.14" x2="261.62" y2="104.14" width="0.1524" layer="97" style="shortdash"/>
 <frame x1="7.62" y1="12.7" x2="337.82" y2="200.66" columns="8" rows="5" layer="97"/>
@@ -42974,6 +42973,7 @@ Source: www.kingbright.com</description>
 <text x="15.24" y="17.78" size="2.54" layer="97">http://creativecommons.org/licenses/by-sa/3.0/</text>
 <text x="15.24" y="193.04" size="2.54" layer="97">SMAC Project - SMAC-2530 Reference Design</text>
 <text x="127" y="193.04" size="2.54" layer="97">http://smacproject.org</text>
+<text x="157.48" y="30.48" size="1.778" layer="97" rot="R90">NOTE: ANTENNA SHOULD NOT BE CONNECTED TO 0V!</text>
 </plain>
 <instances>
 <instance part="IC1" gate="S" x="60.96" y="109.22"/>
@@ -42992,7 +42992,6 @@ Source: www.kingbright.com</description>
 <instance part="GND3" gate="1" x="83.82" y="73.66"/>
 <instance part="GND7" gate="1" x="121.92" y="30.48"/>
 <instance part="+3V2" gate="G$1" x="35.56" y="68.58"/>
-<instance part="R5" gate="G$1" x="142.24" y="45.72"/>
 <instance part="LCD3310" gate="G$1" x="297.18" y="172.72" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="293.37" y="182.88" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="288.29" y="184.658" size="1.778" layer="95" rot="MR180"/>
@@ -43178,9 +43177,11 @@ Source: www.kingbright.com</description>
 <wire x1="149.86" y1="55.88" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="58.42" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="45.72" x2="152.4" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="45.72" x2="152.4" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="B1" gate="G$1" pin="UNBAL"/>
+<wire x1="137.16" y1="45.72" x2="132.08" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="USB" gate="G$1" pin="GND@4"/>
@@ -43683,13 +43684,6 @@ Source: www.kingbright.com</description>
 <pinref part="PORT1" gate="1" pin="3"/>
 <wire x1="299.72" y1="48.26" x2="312.42" y2="48.26" width="0.1524" layer="91"/>
 <label x="302.26" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="B1" gate="G$1" pin="UNBAL"/>
-<wire x1="137.16" y1="45.72" x2="132.08" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">

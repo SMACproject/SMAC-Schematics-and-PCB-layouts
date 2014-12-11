@@ -69,8 +69,8 @@
 <layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
 <layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -80,7 +80,7 @@
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
@@ -1956,8 +1956,9 @@
 <wire x1="23.9" y1="14.6" x2="26.7" y2="14.6" width="0.254" layer="21"/>
 <wire x1="62.5" y1="14.6" x2="59.7" y2="14.6" width="0.254" layer="21"/>
 <wire x1="62.5" y1="14.6" x2="62.5" y2="17.4" width="0.254" layer="21"/>
-<text x="24.9" y="15.5" size="1.27" layer="21" font="vector">SMAC-2530 DEVELOPMENT BOARD v1.0</text>
+<text x="24.9" y="15.5" size="1.27" layer="21" font="vector">SMAC-2530 DEVELOPMENT BOARD v1.1</text>
 <text x="73.2" y="40.6" size="1.27" layer="21" font="vector" rot="R90">CC-BY-SA 3.0</text>
+<text x="64.1" y="35.5" size="0.8128" layer="49" font="vector" rot="R90">DO NOT ROUTE ANTENNA TO 0V!</text>
 </plain>
 <libraries>
 <library name="resistor">
@@ -9443,10 +9444,6 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="59.911" y="45.911" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="61.368" y="47.289" size="0.8128" layer="27" rot="R270"/>
 </element>
-<element name="R5" library="resistor" package="R0603K" value="0" x="63.1" y="42.4" smashed="yes">
-<attribute name="NAME" x="62.711" y="43.089" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="62.911" y="40.868" size="0.8128" layer="27"/>
-</element>
 <element name="LCD3310" library="con-lsta" package="FE05-2" value="" x="43.18" y="32.258" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="43.18" y="32.258" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="43.18" y="32.258" size="1.778" layer="27" rot="R180" display="off"/>
@@ -9659,7 +9656,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="B1" pad="5"/>
 <contactref element="B1" pad="6"/>
 <contactref element="C3" pad="2"/>
-<contactref element="R5" pad="2"/>
 <contactref element="USB" pad="GND@4"/>
 <contactref element="USB" pad="GND@1"/>
 <contactref element="USB" pad="GND@2"/>
@@ -9715,17 +9711,15 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="64.911" y1="40.528" x2="69.811" y2="40.528" width="0.5" layer="1"/>
 <wire x1="64.911" y1="40.128" x2="64.911" y2="40.178" width="0.2032" layer="1"/>
 <wire x1="64.911" y1="40.328" x2="64.839" y2="40.4" width="0.2032" layer="1"/>
-<wire x1="64.839" y1="40.4" x2="64.1" y2="40.4" width="0.2032" layer="1"/>
+<wire x1="64.839" y1="40.4" x2="64.1" y2="40.4" width="0.254" layer="1"/>
 <via x="64.1" y="40.4" extent="1-16" drill="0.254"/>
-<wire x1="60.5" y1="41.975" x2="60.5" y2="41.2" width="0.2032" layer="1"/>
-<wire x1="60.5" y1="41.2" x2="60.5" y2="40.425" width="0.2032" layer="1"/>
+<wire x1="60.5" y1="41.975" x2="60.5" y2="41.2" width="0.254" layer="1"/>
+<wire x1="60.5" y1="41.2" x2="60.5" y2="40.425" width="0.254" layer="1"/>
 <wire x1="61.15" y1="40.425" x2="60.5" y2="40.425" width="0.2032" layer="1"/>
 <via x="60.5" y="41.2" extent="1-16" drill="0.254"/>
 <contactref element="GND" pad="3"/>
 <contactref element="GND" pad="1"/>
 <contactref element="GND" pad="2"/>
-<wire x1="64.911" y1="42.428" x2="63.978" y2="42.428" width="0.2032" layer="1"/>
-<wire x1="63.978" y1="42.428" x2="63.95" y2="42.4" width="0.2032" layer="1"/>
 <wire x1="52.45" y1="41.95" x2="54.65" y2="41.95" width="0.254" layer="1"/>
 <wire x1="54.65" y1="41.95" x2="55.4" y2="41.2" width="0.254" layer="1"/>
 <wire x1="52.45" y1="41.95" x2="52.45" y2="42.45" width="0.254" layer="1"/>
@@ -9734,13 +9728,36 @@ Please make sure your boards conform to these design rules.</description>
 <polygon width="0.254" layer="1">
 <vertex x="11.7" y="61.1"/>
 <vertex x="64.3" y="61.1"/>
-<vertex x="64.3" y="44.8"/>
-<vertex x="57.6" y="44.8"/>
+<vertex x="64.3" y="43.1"/>
+<vertex x="61.3" y="43.1" curve="90"/>
+<vertex x="60.5" y="42.3"/>
+<vertex x="60.5" y="41.9"/>
+<vertex x="59.2" y="41.9"/>
+<vertex x="59.2" y="43.1"/>
+<vertex x="57.6" y="43.1"/>
 <vertex x="57.6" y="37.7"/>
+<vertex x="60.1" y="37.7"/>
+<vertex x="60.1" y="40.4"/>
+<vertex x="63.5" y="40.4"/>
+<vertex x="63.5" y="37.7"/>
 <vertex x="74.3" y="37.7"/>
 <vertex x="74.3" y="3.6"/>
 <vertex x="11.7" y="3.6"/>
 </polygon>
+<contactref element="B1" pad="1"/>
+<wire x1="61.15" y1="41.975" x2="61.603" y2="42.428" width="0.254" layer="1" curve="-90"/>
+<wire x1="61.603" y1="42.428" x2="64.911" y2="42.428" width="0.254" layer="1"/>
+<via x="62.4" y="39.9" extent="1-16" drill="0.254"/>
+<via x="63.8" y="37.1" extent="1-16" drill="0.254"/>
+<via x="62.4" y="38.5" extent="1-16" drill="0.254"/>
+<via x="62.4" y="37.1" extent="1-16" drill="0.254"/>
+<via x="65.2" y="37.1" extent="1-16" drill="0.254"/>
+<via x="66.6" y="37.1" extent="1-16" drill="0.254"/>
+<via x="68" y="37.1" extent="1-16" drill="0.254"/>
+<via x="69.4" y="37.1" extent="1-16" drill="0.254"/>
+<via x="70.8" y="37.1" extent="1-16" drill="0.254"/>
+<via x="72.2" y="37.1" extent="1-16" drill="0.254"/>
+<via x="73.6" y="37.1" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="+3V3">
 <contactref element="CON1" pad="2"/>
@@ -9886,14 +9903,14 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="RFP">
 <contactref element="IC1" pad="25"/>
 <contactref element="B1" pad="4"/>
-<wire x1="58.35" y1="40.95" x2="59.325" y2="40.95" width="0.2032" layer="1"/>
-<wire x1="59.325" y1="40.95" x2="59.85" y2="40.425" width="0.2032" layer="1" curve="-90"/>
+<wire x1="58.35" y1="40.95" x2="59.325" y2="40.95" width="0.254" layer="1"/>
+<wire x1="59.325" y1="40.95" x2="59.85" y2="40.425" width="0.254" layer="1" curve="-90"/>
 </signal>
 <signal name="RFN">
 <contactref element="IC1" pad="26"/>
 <contactref element="B1" pad="3"/>
-<wire x1="58.35" y1="41.45" x2="59.325" y2="41.45" width="0.2032" layer="1"/>
-<wire x1="59.325" y1="41.45" x2="59.85" y2="41.975" width="0.2032" layer="1" curve="90"/>
+<wire x1="58.35" y1="41.45" x2="59.325" y2="41.45" width="0.254" layer="1"/>
+<wire x1="59.325" y1="41.45" x2="59.85" y2="41.975" width="0.254" layer="1" curve="90"/>
 </signal>
 <signal name="P0_3">
 <contactref element="IC1" pad="16"/>
@@ -10144,12 +10161,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="56.31" y1="57.9" x2="31.1" y2="57.9" width="0.254" layer="16"/>
 <wire x1="31.1" y1="57.9" x2="29.95" y2="56.75" width="0.254" layer="16"/>
 <wire x1="29.95" y1="56.75" x2="29.95" y2="52.5" width="0.254" layer="16"/>
-</signal>
-<signal name="N$6">
-<contactref element="R5" pad="1"/>
-<contactref element="B1" pad="1"/>
-<wire x1="62.25" y1="42.4" x2="61.575" y2="42.4" width="0.2032" layer="1"/>
-<wire x1="61.575" y1="42.4" x2="61.15" y2="41.975" width="0.2032" layer="1" curve="90"/>
 </signal>
 <signal name="N$2">
 <contactref element="USB" pad="VBUS"/>
